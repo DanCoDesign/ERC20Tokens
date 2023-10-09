@@ -1,0 +1,21 @@
+{
+  "main": "./contracts/GLDToken.sol",
+  "deploy": "",
+  "framework": "hardhat",
+  "npmClient": "npm",
+  "compilers": {
+    "solc": "0.8.4",
+    "truffle": "",
+    "evmVersion": "istanbul",
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    }
+  },
+  "linter": "solhint",
+  "editor": {
+    "fontFamily": "Hack",
+    "fontSize": "13px",
+    "ligatures": false
+  }
+}

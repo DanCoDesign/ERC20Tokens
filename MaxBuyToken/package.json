@@ -1,0 +1,23 @@
+{
+  "name": "token1",
+  "version": "1.0.0",
+  "description": "This is a sample project of [OpenZeppelin contracts](https://openzeppelin.com/contracts/).",
+  "main": "hardhat.config.js",
+  "scripts": {
+    "build": "hardhat compile --config hardhat.config.js",
+    "deploy": "hardhat run scripts/deploy.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-etherscan": "^3.1.7",
+    "@nomiclabs/hardhat-waffle": "^2.0.6",
+    "@openzeppelin/contracts": "^4.2.0",
+    "chai": "^4.3.7",
+    "ethereum-waffle": "^4.0.10",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.5.0"
+  }
+}
